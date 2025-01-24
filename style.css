@@ -1,0 +1,213 @@
+/* Reset and Basic Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #555;
+    padding: 10px 0;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    padding: 10px 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+    background-color: #c7c7c7;
+    color: black;
+}
+
+/* Section and Content */
+.section {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Forms and Input Fields */
+form div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+input[type="number"],
+input[type="password"],
+textarea,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Buttons */
+button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #449d44;
+}
+
+button[type="reset"] {
+    background-color: #d9534f;
+}
+
+button[type="reset"]:hover {
+    background-color: #c9302c;
+}
+
+span.help-block {
+    color: red;
+    font-size: 0.9em;
+}
+
+/* Dashboard */
+.dashboard {
+    padding: 20px;
+}
+
+.dashboard h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #343a40;
+}
+
+.dashboard-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dashboard-item {
+    text-align: center;
+    text-decoration: none;
+    color: #343a40;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 150px;
+    transition: box-shadow 0.3s, transform 0.3s;
+    background: #fff;
+}
+
+.dashboard-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.dashboard-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    font-size: 0.8em;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f8f9fa;
+}
+
+/* Utility Classes */
+.btn {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    color: white;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+    color: white;
+}
