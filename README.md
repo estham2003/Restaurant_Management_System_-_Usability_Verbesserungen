@@ -1,1 +1,7 @@
-# Restaurant_Management_System_und_Usability
+# afromix Management System
+
+## Technologies
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: PHP, MySQL
+- **Database**: MySQL
